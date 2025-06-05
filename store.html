@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tienda Reina Moda</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <header class="store-header">
+    <h1 class="fade-in">🛍️ Tienda Reina Moda</h1>
+    <p class="subtitulo">Completá tus datos y empezá a llenar tu carrito</p>
+  </header>
+
+  <main>
+    <section class="formulario">
+      <form id="formCliente" class="fade-in">
+        <input type="text" id="nombre" placeholder="Tu nombre" required />
+        <input type="email" id="email" placeholder="Tu email" required />
+        <button type="submit">Guardar Datos</button>
+      </form>
+    </section>
+
+    <section id="catalogo" class="catalogo fade-in"></section>
+
+    <section class="carrito-section fade-in">
+      <h2>🛒 Tu Carrito</h2>
+      <div id="carrito" class="carrito"></div>
+      <button id="finalizarCompra" class="btn-finalizar">Finalizar Compra</button>
+    </section>
+  </main>
+
+  <footer class="footer-home">
+    <p>&copy; 2025 Reina Moda. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/store.js"></script>
+</body>
+</html>

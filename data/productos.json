@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "nombre": "Aros Argolla1",
+    "material": "Acero Blanco",
+    "precio": 5500,
+    "imagen": "assets/arosArgolla1.jpeg"
+  },
+  {
+    "id": 2,
+    "nombre": "Aros Argolla2",
+    "material": "Plata 925",
+    "precio": 4600,
+    "imagen": "assets/arosArgolla2.jpeg"
+  },
+  {
+    "id": 3,
+    "nombre": "Aros Argolla3",
+    "material": "Acero Dorado",
+    "precio": 3700,
+    "imagen": "assets/arosArgolla3.jpeg"
+  },
+  {
+    "id": 4,
+    "nombre": "Aros Corazón",
+    "material": "Acero Dorado",
+    "precio": 3700,
+    "imagen": "assets/arosCorazonTurquesa.jpeg"
+  },
+  {
+    "id": 5,
+    "nombre": "Pañuelo de seda",
+    "material": "Seda",
+    "precio": 3700,
+    "imagen": "assets/pañueloAtado.jpeg"
+  },
+  {
+    "id": 6,
+    "nombre": "Pañuelo de seda2",
+    "material": "Seda",
+    "precio": 5000,
+    "imagen": "assets/pañueloAtado2.jpeg"
+  },
+  {
+    "id": 7,
+    "nombre": "Pulsera Acero",
+    "material": "Acero Blanco",
+    "precio": 3700,
+    "imagen": "assets/pulserasAcero5.jpeg"
+  }
+]
