@@ -4,15 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
   configurarFinalizacionCompra();
 });
 
-
-// DATOS DEL CLIENTE
-
 function inicializarFormularioCliente() {
   const form = document.getElementById("formCliente");
   const nombreInput = document.getElementById("nombre");
   const emailInput = document.getElementById("email");
 
-  // Precarga si ya los guardó
   nombreInput.value = localStorage.getItem("nombre") || "";
   emailInput.value = localStorage.getItem("email") || "";
 
@@ -32,13 +28,9 @@ function inicializarFormularioCliente() {
 }
 
 function validarDatos(nombre, email) {
-  const emailValido = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email);
+  const emailValido = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   return nombre.length >= 2 && emailValido;
 }
-
-
-// PRODUCTOS Y CARRITO
-
 
 let carrito = [];
 
@@ -104,10 +96,6 @@ function renderCarrito() {
 
   div.innerHTML += `<p><strong>Total: $${total}</strong></p>`;
 }
-
-
-// FINALIZACIÓN DE COMPRA
-
 
 function configurarFinalizacionCompra() {
   document.getElementById("finalizarCompra").addEventListener("click", () => {
